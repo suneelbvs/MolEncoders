@@ -7,7 +7,22 @@ MolEncoder is a Python package for molecular representations and encodings. It p
 ```bash
 pip install molencoder
 ```
+Alternatively, 
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/molencoder.git
+cd molencoder
 
+# Create a virtual environment (optional but recommended)
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Install the package in editable mode
+pip install -e .
+```
 ## Usage
 
 ```python
